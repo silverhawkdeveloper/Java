@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- FICHERO DE DATOS DE LA APLICACIÓN BOTICA -->
+
+<botica.xml>
+    <Clientes>
+        <Cliente>
+            <dni>12345678Z</dni>
+            <nombre>Amapola Jimenez Paz</nombre>
+            <direccion>C/ Rodeo, 3, Sevilla</direccion>
+            <telefono>963258741</telefono>
+            <baja>false</baja>
+        </Cliente>
+        <Cliente>
+            <dni>87654321X</dni>
+            <nombre>Robustiano Marquez Falcon</nombre>
+            <direccion>Av. Torneo,11, 1-A, Sevilla</direccion>
+            <telefono>963258741</telefono>
+            <baja>false</baja>
+        </Cliente>
+        <Cliente>
+            <dni>Y0870648C</dni>
+            <nombre>Omar Sharif</nombre>
+            <direccion>C/ La Albahaca, 1, Almería</direccion>
+            <telefono>896521473</telefono>
+            <baja>false</baja>
+        </Cliente>
+    </Clientes>
+    <Productos>
+        <Medicamento>
+            <codigo>1234567890123</codigo>
+            <nombre>Colirio</nombre>
+            <descripcion>para los ojos</descripcion>
+            <precio>2.33</precio>
+            <unidades>1</unidades>
+            <tipoMedicamento>ANALGESICOS</tipoMedicamento>
+            <comoTomar>1 gota 3 veces al día</comoTomar>
+            <efectosAdversos>Alergia algún componente. Leer prospecto</efectosAdversos>
+        </Medicamento>
+        <Medicamento>
+            <codigo>1234567890321</codigo>
+            <nombre>Ibuprofeno Espididol 400 mg 18 Comprimidos</nombre>
+            <descripcion>Medicamento que reduce las posibles dolencias moderadas y temporales, así como la fiebre en adultos.</descripcion>
+            <precio>5.22</precio>
+            <unidades>20</unidades>
+            <tipoMedicamento>ANALGESICOS</tipoMedicamento>
+            <comoTomar>1 pastilla cada 8 horas mientras tenga sintomas</comoTomar>
+            <efectosAdversos>Alergia algún componente. Leer prospecto</efectosAdversos>
+        </Medicamento>
+        <ParaFarmacia>
+            <codigo>8876543210123</codigo>
+            <nombre>Betres ON Gel Hidroalcohólico Con Aloe</nombre>
+            <descripcion>Desinfecta tus manos de virus y bacterias en cualquier momento sin necesidad de agua. Con aloe vera para dejar las manos hidratadas.</descripcion>
+            <precio>2.95</precio>
+            <unidades>1</unidades>
+            <categoria>GELES</categoria>
+            <dosisUnidades>200</dosisUnidades>
+            <descuento>5</descuento>
+        </ParaFarmacia>
+        <ParaFarmacia>
+            <codigo>8876543210321</codigo>
+            <nombre>Mascarilla FFP2 Adulto</nombre>
+            <descripcion>Mascarillas FFP2 aptas para uso médico, que cuentan con el certificado CE 2163 para ofrecerte la mayor seguridad. Evita la entrada de partículas contaminantes en nuestro organismo. </descripcion>
+            <precio>0.85</precio>
+            <unidades>1</unidades>
+            <categoria>MASCARILLAS</categoria>
+            <dosisUnidades>1</dosisUnidades>
+            <descuento>0</descuento>
+        </ParaFarmacia>
+    </Productos>
+</botica.xml>
